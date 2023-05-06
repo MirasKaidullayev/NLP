@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "interested",
+         "patterns": ["interested", "yes"],
+         "responses": ["Let's conduct a online job interview. We have 2 available slots. What is convinient for you? Today at 16:00 or tomorrow at 16:00."],
+         "context_set": ""
+        },
+        {"tag": "not interested",
+         "patterns": ["not interested","no", "nope", "I already have a job"],
+         "responses": ["Okay, have a good day"]
+        },
+        {"tag": "today1",
+         "patterns": ["today"],
+         "responses": ["Great we are waiting you today at zoom meeting 16:00 for a online job interview. The link for a meeting is: XXX. You can also ask question about the vacancy here"]
+        },
+        {"tag": "tomorrow1",
+         "patterns": ["tomorrow"],
+         "responses": ["Great we are waiting you tomorrow at zoom meeting 16:00 for a online job interview. The link for a meeting is: XXX. You can also ask question about the vacancy here"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "salary",
+         "patterns": ["salary", "what is the salary", "payment", "how much do you pay" ],
+         "responses": ["The salary is 500 000 tenge a month"]
+        },
+        {"tag": "requirements",
+         "patterns": ["job requirements", "requirements for the job", "what are the job requirements", "requirements", "requirement" ],
+         "responses": ["Strong programming skills in languages such as Python, R, and SQL. Experience with data preprocessing, data cleaning, and feature engineering. Experience with machine learning algorithms such as regression, classification, and clustering."]
+        },
+        {"tag": "company",
+         "patterns": ["What is the company", "what company does", "Tell more about the company" ],
+         "responses": ["We are a banking company XXX. You can get more information about our company by following this link: XXX" ]
+        },
+        {"tag": "location",
+         "patterns": ["where is the office?", "where the office located", "adress", "what is the adress", "location"],
+         "responses": ["The adress of the office is XXX in Alamty "]
+        },
+        {"tag": "responsibilities",
+         "patterns": ["Whar are job responsibilities?", "responsibilities", "job responsibilities"],
+         "responses": ["Key responsibility is to develop and implement statistical and machine learning models to analyze large datasets."]
+        }
+   ]
+}
